@@ -3,6 +3,11 @@ Audios is a fully functional Audiobook store created by me.
 <br>
 It uses php and mySql for its backend and HTML/CSS/Javascript for its frontend.
 <br>
+Demo : https://audioos.000webhostapp.com/home.php , <i>Best viewed on Google Chrome and on a 1920x1080 display.</i>
+<br>
+<br>
+<b><!>000Webhost's free service does not support audio/video streaming and this is why the audio files don’t play on the website. </b>
+<br>
 <br>
 <br>
 <br>
