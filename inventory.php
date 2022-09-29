@@ -1,7 +1,3 @@
-<!-- Submitted Separately due to its length -->
-<!-- Made by Bharat Nema -->
-<!-- 16010120089 -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
