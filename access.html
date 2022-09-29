@@ -1,0 +1,130 @@
+<!-- Submitted Separately due to its length -->
+<!-- Made by Bharat Nema -->
+<!-- 16010120089 -->
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUDIOS // Audiobook Store</title>
+    <script
+            src="https://kit.fontawesome.com/b6b9586b26.js"
+            crossorigin="anonymous"
+    ></script>
+<!--    <link rel="stylesheet" href="css/main.css">-->
+    <link rel="stylesheet" href="css/access.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+<!-- top header -->
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/headphone.png" width="230px">
+
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="browse.html">BROWSE </a> </li>
+                </ul>
+            </nav>
+
+            <img src="img/books.png" width="25px" height="25px">
+        </div>
+    </div>
+</div>
+
+<div>
+    <br><br><br><br>
+</div>
+
+<!--Sign in-->
+<div id="sign_in">
+<form>
+<!--    <span>Sign In</span>-->
+    <div id="field">
+        <label><i class="fas fa-user"></i></label>
+        <input type="text" placeholder="Username" required />
+    </div>
+
+    <div id="field">
+        <label><i class="fas fa-lock"></i></label>
+        <input type="password" placeholder="Password" required />
+    </div>
+
+    <div id="field">
+        <input type="submit" value="Log in" />
+    </div>
+</form>
+
+<p>
+    Not a member?
+    <button onclick="signUp()"><a>Sign up now</a></button>
+    <i class="fas fa-arrow-right"></i>
+</p>
+</div>
+
+<!--sign Up-->
+<div id="sign_up">
+<form>
+<!--    <span>Sign Up</span>-->
+    <div id="field">
+        <label><i class="fas fa-user"></i></label>
+        <input type="text" placeholder="Username" required />
+    </div>
+
+    <div id="field">
+        <label><i class="fas fa-envelope-open"></i></label>
+        <input type="email" placeholder="Email Address" required />
+    </div>
+
+    <div id="field">
+        <label><i class="fas fa-lock"></i></label>
+        <input type="password" placeholder="Password" required />
+    </div>
+
+    <div id="field">
+        <label><i class="fas fa-lock"></i></label>
+        <input type="password" placeholder="Confirm Password" required />
+    </div>
+
+    <div id="field">
+        <input type="submit" value="Register" />
+    </div>
+</form>
+
+        <p>
+            Already a member?
+            <button onclick="signIn()"><a>Sign in now</a></button>
+            <i class="fas fa-arrow-right"></i>
+        </p>
+    </div>
+
+    <!-- Spacer -->
+
+
+<script>
+let x = document.getElementById("sign_in");
+let y = document.getElementById("sign_up");
+
+function signIn() {
+    y.style.display = "none";
+    x.style.display = "revert";
+}
+function signUp() {
+    x.style.display = "none";
+    y.style.display = "revert";
+}
+</script>
+</body>
+</html>
